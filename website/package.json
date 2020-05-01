@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "The official website for hyper.app",
   "dependencies": {
-    "serve": "latest"
+    "serve": "latest",
+    "snyk": "^1.316.1"
   },
   "scripts": {
-    "start": "serve . -c 5"
+    "start": "serve . -c 5",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "now": {
     "alias": "hyper.is"
-  }
+  },
+  "snyk": true
 }
