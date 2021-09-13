@@ -26,7 +26,7 @@
     "node-pty": "0.7.4",
     "queue": "4.4.2",
     "semver": "5.4.1",
-    "shell-env": "0.3.0",
+    "shell-env": "4.0.0",
     "uuid": "3.1.0",
     "winreg": "1.2.4"
   }
