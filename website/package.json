@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "The official website for hyper.app",
   "dependencies": {
-    "serve": "latest"
+    "serve": "6.5.6"
   },
   "scripts": {
     "start": "serve . -c 5"
